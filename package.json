@@ -4,12 +4,16 @@
   "description": "Simulator for Pokemon GO",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./src --ext .ts",
     "test": "jest"
   },
   "author": "Chayanin Punjakunaporn",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^26.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "eslint": "^7.11.0",
     "jest": "^26.0.1",
     "ts-jest": "^26.1.1",
     "typescript": "^3.9.5"
